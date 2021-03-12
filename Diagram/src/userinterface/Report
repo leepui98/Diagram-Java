@@ -1,0 +1,31 @@
+
+ What our program can do:
+ 1. Draw Box: Click on draw boxes button, select color, drag, and create boxes. 
+ 2. Draw Text: Click on draw text button, select color, click on screen to pick location for text, input text.
+ 3. Draw Line: Click on draw Lines button, select color, drag, and create lines.
+ 4. Modifies: Click on Modifies button to modify
+  	i. box : click on the right bottom corner of the object, drag to the left or right to increase or decrease the size.
+  	ii. text: click on text to change color and change text
+  	iii. line: not working properly
+  	iv. circle: click and change color
+ 5. Move: Click on the object and click to the chosen location on screen to change location. Apply to text, box,and circle.
+ 6. Remove: Click on the object to remove from screen. 
+ 7. Clear: Click on the button and all the objects on screen will be removed.
+ 8. Redraw: Recall all objects that have been added to the arraylist.
+ 
+ For the code:
+ 1.Create a Shape interface that share draw method & accessors with other classes.
+ 2.Create Box, Circle, Line, Text that implementing shape interface.
+ 3.In user interface, we create an arrayList of Shape to store all objects that we create,
+ multiple method (mode) for drawBox, drawText, drawLine, drawCircle, remove, modifies, and move.
+ 4.We create a doMouse method that encapsulate "released" and "pressed " actions. 
+ 5. Within each of the actions, we create if loops for each mode.
+ 6.Within the modifyDrawing mode loop, the MoveDrawing mode loop and the RemoveDrawing mode loop, we create a for
+ loop that iterate through the arrayList of shape and check whether the mouse pressed is within the area of the 
+ objects on screen. if found, modify, move or remove.
+ 
+ Van Le, Martin Jose, and Pui Li (me) did the group assignment together on the first 2 day. We experienced difficulty on 
+discussing the projects virtually, and we can't contact Martin on the third day. 
+ 
+ 
+ 
